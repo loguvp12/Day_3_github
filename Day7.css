@@ -1,0 +1,19 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    padding: 25px;
+
+}
+H1{
+    
+    font size: 35;
+}
+form{
+    background: whitesmoke;
+    padding: 50px;
+    border-radius: 100px;
+    max-width: 600px;
+}
+input{
+    color: red;
+}
