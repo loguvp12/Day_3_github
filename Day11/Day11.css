@@ -1,0 +1,67 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(251, 249, 252);
+    background-color: black;
+    border-bottom-left-radius: 180px;
+    border-bottom-right-radius: 180px;
+    border-bottom-style: double;
+}
+
+.common {
+    padding: 20px;
+    background-color: rgb(206, 98, 248);
+    color: rgb(7, 7, 7);
+    font-family: Arial, sans-serif;
+    border-left: 7px solid rgb(14, 13, 8);
+    margin: 20px auto;
+    max-width: 1200px;
+    min-width: 100px;
+    /* border-radius: 20px; */
+    height: 350px;
+
+}
+
+#bg-color {
+    background-color: rgb(red, green, blue);
+    color: white;
+}
+
+#bg-img {
+    background-image: url(img.jpg);
+    background-color: white;
+}
+
+#bg-repeat {
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+
+}
+
+#bg-size {
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    size: 20px;
+}
+
+#bg-position {
+    background-image: url(img.jpg);
+    background-position: center;
+
+}
+
+#bg-attachment {
+    background-image: url(img.jpg);
+    background-attachment: local;
+    background-size: contain;
+    background-repeat: initial;
+
+
+}
