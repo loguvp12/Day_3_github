@@ -1,0 +1,64 @@
+body {
+    background-image: url(images.jpeg.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    color: aliceblue;
+}
+
+.common {
+    padding: 20px;
+    background-color: rgb(66, 66, 66);
+    margin: 15px;
+    max-width: 700px;
+    color: rgb(253, 251, 251);
+    border-left: 5px solid rgb(248, 247, 247);
+    border-radius: 50px;
+}
+
+h1.heading {
+    text-align: center;
+    color: none;
+}
+
+.coloring {
+    color: aqua;
+}
+
+.centring {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+    /* text-decoration: overline; */
+}
+
+.no-underline {
+    text-decoration: none;
+    color: rgb(72, 231, 80);
+}
+.line{
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+}
+
+.uppercase {
+    text-transform: capitalize;
+
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
+.spacing {
+letter-spacing: 2px;
+word-spacing: 7px;
+}
+.lined{
+    line-height: 20px;
+}
+.indent{
+    text-indent: 50px;
+}
